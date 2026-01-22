@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.Instant;
 
 @Getter
+@Data
 @Setter
 @Builder
 @NoArgsConstructor
