@@ -1,4 +1,10 @@
 package com.reactiveinbox.model;
 
-public class EventStatus {
+public enum EventStatus {
+
+    RECEIVED,
+    PUBLISHED,
+    PROCESSED,
+    FAILED
+
 }
